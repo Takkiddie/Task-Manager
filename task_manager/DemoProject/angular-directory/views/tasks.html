@@ -1,0 +1,31 @@
+﻿
+<h1>List of all tasks</h1>
+<table class="table table-striped">
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    <tr ng-repeat="task in tasks">
+        <td class="delete_collumn"><a class="delete_button linkButton" ng-click="removeTask(task.id)">Complete</a></td>
+        <td class="name_collumn">{{task.name}}</td>
+        <td>{{task.description}}</td>
+    </tr>
+</table>
+
+<h3>Make New Task Here</h3>
+<form class="input_section">
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">Task Name</span>
+            <input ng-model="name" class="form-control" type="text" data-required="true" placeholder="Enter the task's name"><br>
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon">Task Description</span>
+            <input ng-model="description" class="form-control" type="text" data-required="true" placeholder="Enter the task's name"><br>
+        </div>
+    </div>
+    <a class="disabled_button linkButton" ng-if='name === undefined'>Add Task</a>
+    <a class="input_button linkButton" ng-if='name !== undefined' ng-click="addTask()">Add Task</a>
+</form>

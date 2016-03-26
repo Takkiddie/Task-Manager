@@ -1,0 +1,87 @@
+﻿#main 
+{
+    margin: 0 auto;
+    width: 960px;
+}
+a 
+{
+    cursor: pointer;
+}
+.input_section 
+{
+    width: 500px;
+}
+
+/*portal link buttons*/
+.input_button 
+{
+        background-color: #008DD2;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#017DB9), to(#008DD2));
+        background: -webkit-linear-gradient(top, #017DB9, #008DD2);
+        background: -moz-linear-gradient(top, #017DB9, #008DD2);
+        background: -ms-linear-gradient(top, #017DB9, #008DD2);
+        background: -o-linear-gradient(top, #017DB9, #008DD2);
+        color: white !important;
+        cursor: pointer;
+
+}
+.input_button:hover
+{
+        background-color: #017DB9;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#017DB9), to(#017DB9));
+        background: -webkit-linear-gradient(top, #017DB9, #017DB9);
+        background: -moz-linear-gradient(top, #017DB9, #017DB9);
+        background: -ms-linear-gradient(top, #017DB9, #017DB9);
+        background: -o-linear-gradient(top, #017DB9, #017DB9);
+}
+.delete_button 
+{
+        background-color: #4EA409;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4EA409), to(#5ABC0A));
+        background: -webkit-linear-gradient(top, #4EA409, #5ABC0A);
+        background: -moz-linear-gradient(top, #4EA409, #5ABC0A);
+        background: -ms-linear-gradient(top, #4EA409, #5ABC0A);
+        background: -o-linear-gradient(top, #4EA409, #5ABC0A);
+        color: white !important;
+        cursor: pointer;
+
+}
+.delete_button:hover
+{
+        background-color: #5ABC0A;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5ABC0A), to(#5ABC0A));
+        background: -webkit-linear-gradient(top, #5ABC0A, #5ABC0A);
+        background: -moz-linear-gradient(top, #5ABC0A, #5ABC0A);
+        background: -ms-linear-gradient(top, #5ABC0A, #5ABC0A);
+        background: -o-linear-gradient(top, #5ABC0A, #5ABC0A);
+}
+.disabled_button
+{
+    background-color: grey;
+    cursor: default;
+    color: white !important;
+}
+.linkButton {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: medium none;
+    text-decoration: none !important;
+    font-size: 14px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .linkButton a {
+        color: white;
+    }
+.name_collumn 
+{
+    width: 200px;
+}
+.delete_collumn 
+{
+    width: 100px;
+}
